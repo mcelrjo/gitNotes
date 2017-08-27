@@ -15,18 +15,19 @@
 ```
 $ git init
 ```
-...Initializes the project and sets up the tools to begin tracking changes on a project.
+   Initializes the project and sets up the tools to begin tracking changes on a project.
 ---
 ```
 $ git status
 ```
-... Checks and reports the status of changes.
-... Files in *Red* are untracked and git 
+   Checks and reports the status of changes.
+   Files in *Red* are untracked and git 
+
 ---
 ```
 $ git add <filename>
 ```
-...To start tracking changes, files need to be first added to the staging area.
-...Use *git add* to add to the staging area.
-...Text in green is in the staging area.
+   To start tracking changes, files need to be first added to the staging area.
+   Use *git add* to add to the staging area.
+   Text in green is in the staging area.
 ---
