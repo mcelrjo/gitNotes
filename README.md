@@ -51,7 +51,7 @@ $ git log
 ```
    Lists commits to repository chronologically.
 
-###In Git, the commit you are on is *HEAD* known as the head commit.  In most cases the most recently made commit is the head commit.
+### In Git, the commit you are on is *HEAD* known as the head commit.  In most cases the most recently made commit is the head commit.
 
 ```
 $ git show HEAD
