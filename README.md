@@ -59,3 +59,27 @@ $ git show HEAD
    Shows you the head commit.
    Output shows everthing the git log command displays for the HEAD commit, plus all the files changes that were committed. 
 
+```
+$ git checkout HEAD <fileneame>
+```
+   Will restore the file in your working directory to look exactly as it did when you made the last commit.  Essentially erases the changes made since the last commit.
+
+   Working Directory --> Staging Area --> Repository
+
+```
+$ git reset HEAD <filename>
+```
+
+   Resets the file in teh staging area to be the same as the HEAD commit.  It does not discard file changes from the working directory it just removes them from the staging area.
+
+```
+$ git reset SHA
+```
+
+   Rewinds a project to a specific commit.  SHA is a specific log code number for a commit (the first seven characters).  This is a great way to rewind history.
+
+```
+$ git checkout HEAD <filename>
+```
+
+   Discards changes in the working directory.
